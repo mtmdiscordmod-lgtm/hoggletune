@@ -1,0 +1,29 @@
+# ========================================
+# .env.example — Copy to .env and fill in real values
+# ========================================
+# cp .env.example .env
+#
+# NEVER commit the actual .env file to git.
+# This file documents what environment variables the project needs.
+# ========================================
+
+# ----- Application -----
+# PORT=3000
+# NODE_ENV=development
+# DEBUG=false
+
+# ----- Database -----
+# DATABASE_URL=postgresql://user:password@localhost:5432/dbname
+# REDIS_URL=redis://localhost:6379
+
+# ----- API Keys -----
+# Add your project's required API keys here:
+# OPENAI_API_KEY=your_key_here
+# STRIPE_SECRET_KEY=your_key_here
+
+# ----- Auth -----
+# JWT_SECRET=generate_a_random_string
+# SESSION_SECRET=generate_a_random_string
+
+# ----- Project-Specific -----
+# Add project-specific environment variables here

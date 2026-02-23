@@ -1,0 +1,63 @@
+# ========================================
+# .gitignore — Customize for your project
+# ========================================
+
+# ----- Secrets & Environment -----
+.env
+.env.local
+.env.*.local
+
+# ----- OS Files -----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ----- Editor/IDE -----
+.vscode/settings.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ----- Dependencies -----
+# Node.js
+node_modules/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Ruby
+vendor/bundle/
+
+# ----- Build Output -----
+# Uncomment/add lines for your stack:
+# dist/
+# build/
+# out/
+# .next/
+# .nuxt/
+# target/
+
+# ----- Logs -----
+*.log
+logs/
+
+# ----- Coverage & Reports -----
+coverage/
+.nyc_output/
+htmlcov/
+
+# ----- Project-Specific -----
+# Add your project's gitignored files here:
+# media/
+# *.sqlite
+# data/
