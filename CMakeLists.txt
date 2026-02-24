@@ -40,7 +40,7 @@ juce_add_plugin(HoggleTune
     NEEDS_MIDI_OUTPUT           FALSE
     IS_MIDI_EFFECT              FALSE
     EDITOR_WANTS_KEYBOARD_FOCUS FALSE
-    COPY_PLUGIN_AFTER_BUILD     TRUE            # Auto-install after building
+    COPY_PLUGIN_AFTER_BUILD     FALSE           # Don't auto-install (needs admin on Windows)
     PLUGIN_MANUFACTURER_CODE    Hglt            # 4-char manufacturer code
     PLUGIN_CODE                 HgTn            # 4-char plugin code
     FORMATS                     AU VST3 Standalone  # Plugin formats to build
