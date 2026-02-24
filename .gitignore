@@ -1,0 +1,46 @@
+# ========================================
+# .gitignore — HoggleTune Audio Plugin
+# ========================================
+
+# ----- Secrets & Environment -----
+.env
+.env.local
+.env.*.local
+
+# ----- OS Files -----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ----- Editor/IDE -----
+.vscode/settings.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ----- Build Output -----
+build/
+cmake-build-*/
+out/
+
+# ----- JUCE -----
+JuceLibraryCode/
+*.component
+*.vst3
+*.aaxplugin
+
+# ----- Logs -----
+*.log
+logs/
+
+# ----- Compiled Objects -----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
