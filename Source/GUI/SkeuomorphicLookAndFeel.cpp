@@ -286,7 +286,7 @@ void SkeuomorphicLookAndFeel::drawLcdDisplay (juce::Graphics& g,
 
     // Main text (large, green, LCD-style)
     g.setColour (kLcdText);
-    g.setFont (juce::Font (juce::FontOptions ((float) area.getHeight() * 0.45f)));
+    g.setFont (juce::Font ((float) area.getHeight() * 0.45f));
 
     if (subText.isEmpty())
     {
@@ -298,7 +298,7 @@ void SkeuomorphicLookAndFeel::drawLcdDisplay (juce::Graphics& g,
         g.drawText (text, topHalf, juce::Justification::centredBottom);
 
         g.setColour (kLcdText.withAlpha (0.6f));
-        g.setFont (juce::Font (juce::FontOptions ((float) area.getHeight() * 0.6f)));
+        g.setFont (juce::Font ((float) area.getHeight() * 0.6f));
         g.drawText (subText, area, juce::Justification::centredTop);
     }
 }

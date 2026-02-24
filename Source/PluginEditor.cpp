@@ -17,7 +17,7 @@ HoggleTuneEditor::HoggleTuneEditor (HoggleTuneProcessor& p)
 
     // ---- Title ----
     setupSectionLabel (titleLabel, "HOGGLETUNE");
-    titleLabel.setFont (juce::Font (juce::FontOptions (28.0f, juce::Font::bold)));
+    titleLabel.setFont (juce::Font (28.0f, juce::Font::bold));
     titleLabel.setColour (juce::Label::textColourId, SkeuomorphicLookAndFeel::kAccentGold);
 
     // ---- Pitch Correction Section ----
@@ -297,7 +297,7 @@ void HoggleTuneEditor::setupKnob (juce::Slider& knob, juce::Label& label,
 
     label.setText (labelText, juce::dontSendNotification);
     label.setJustificationType (juce::Justification::centred);
-    label.setFont (juce::Font (juce::FontOptions (11.0f)));
+    label.setFont (juce::Font (11.0f));
     label.setColour (juce::Label::textColourId, SkeuomorphicLookAndFeel::kTextDim);
     addAndMakeVisible (label);
 }
@@ -305,7 +305,7 @@ void HoggleTuneEditor::setupKnob (juce::Slider& knob, juce::Label& label,
 void HoggleTuneEditor::setupSectionLabel (juce::Label& label, const juce::String& text)
 {
     label.setText (text, juce::dontSendNotification);
-    label.setFont (juce::Font (juce::FontOptions (14.0f, juce::Font::bold)));
+    label.setFont (juce::Font (14.0f, juce::Font::bold));
     label.setColour (juce::Label::textColourId, SkeuomorphicLookAndFeel::kAccentGold);
     label.setJustificationType (juce::Justification::centredLeft);
     addAndMakeVisible (label);
